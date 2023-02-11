@@ -21,12 +21,9 @@ const playRound = (playerSelection, computerSelection) =>{
       console.log("you lost");
 }
 }
-const game = () => {
-  for (let i=0; i<5; i++) {
     let computerSelection = getComputerChoice();
     let playerSelection = prompt("rock, paper or scissors?").toLowerCase();
     playRound(playerSelection, computerSelection)
-  }
 
 if (playerScore>computerScore) {
   playerScore=0;
@@ -42,5 +39,4 @@ else {
   playerScore=0;
   computerScore=0;
   return "LOSE"
-}
 }
