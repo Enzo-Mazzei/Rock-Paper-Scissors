@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  #scores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .scores {
+    margin-right: 20px;
+  }
+  
+  #fullResult {
+    margin-bottom: 20px;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+  }
+  #buttons #rock {
+    background-image: url('../images/rock.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px; 
+  }
+  #buttons #paper {
+    background-image: url('../images/paper.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px; 
+    height: 100px; 
+  }
+  #buttons #scissors {
+    background-image: url('../images/scissors.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px; 
+    height: 100px; 
+  }
